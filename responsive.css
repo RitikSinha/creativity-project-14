@@ -1,0 +1,88 @@
+@media screen and (max-width: 1140px) {
+  body {
+    overflow-y: scroll;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .logo {
+    width: 100px;
+  }
+  hr {
+    display: none;
+  }
+  .list {
+    width: 100vw;
+    color: #414141;
+  }
+  .active {
+    color: #414141;
+  }
+  .hero-img {
+    width: 100vw;
+  }
+  .line {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  .part-1 {
+    margin-top: 40px;
+  }
+  .heading-box {
+    width: 100%;
+  }
+  .heading {
+    margin: 0 10px;
+    font-size: 6rem;
+  }
+  .p-box {
+    padding-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .btn-box {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  nav {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  .work {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .right {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .dance {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 624px) {
+  .part-1 {
+    flex-direction: column;
+  }
+  .heading {
+    margin: 0 10px;
+    font-size: 4rem;
+  }
+  .icons-box {
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .list {
+    display: none;
+  }
+}
